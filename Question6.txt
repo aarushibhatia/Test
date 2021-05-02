@@ -1,0 +1,25 @@
+# Push Notifications Methods - 
+
+1. AWS SNS (Simple Notification Service)
+
+    It is a pub/sub (publish-subscribe) service. Whenever something about a "topic" is published,
+    be it through events or something else, notification to its subscribers is sent. It works the
+    best if there are more people. It works in 2 modes: A2A (Application to Application) and
+    A2P (Application to Person). the A2P functionality enables one to send messages to users at 
+    scale via SMS, mobile push, and email.
+
+2. Service Worker in node.js
+
+
+    A client app installs a service worker. It is an autonomously working script in the browser. So even if the tab with the application is not currently open, the service worker will accept and show a notification.
+    A user receives a request to display notifications.
+    After accepting permission to display notifications, the browser hands credentials and other service information to the app. This data must be sent to the backend and stored in the db.
+    Using the previously received credentials, the backend makes a request to the service provider, which in turn sends a notification to the service worker.
+    The service worker receives a notification and shows it.
+
+    Steps to implement this:
+
+    Step 1: Starting the Node.js application and getting VAPID keys.
+    Step 2: Creating a worker service.
+    Step 3: Subscribe to notifications.
+    Step 4: Getting credentials on the backend side and sending a notification.
