@@ -28,6 +28,18 @@
 
 ### **Response Screenshots**
 
-![alt text]( "")
+![alt text](https://github.com/aarushibhatia/Test/blob/master/User%20already%20exists.png "User already exists")
 
-![alt text]( "")
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Signup%20Successful.png "Signup Successful")
+
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Question1%20Output.png "Question 1 Output")
+
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Question%202%20Output.png "Question 2 Output")
+
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Error%20while%20adding%20user.png "Error while adding user")
+
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Error%20in%20console%20for%20adding%20user.png "Error in console for adding user")
+
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Add%20Joining%20Details%20response.png "Add Joining Details response")
+
+![alt text](https://github.com/aarushibhatia/Test/blob/master/Add%20Joining%20Deets%20error.png "Add Joining Deets error")
